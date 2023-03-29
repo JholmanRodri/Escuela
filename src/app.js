@@ -1,7 +1,6 @@
 import express from "express";
 import indexRoutes from "./routes/indexRoutes";
-import exphbs from "express-handlebars";
-import path from "path"; //Nos sirve para las rutas modulo node
+  import path from "path"; //Nos sirve para las rutas modulo node
 import morgan from "morgan";
  
 const app = express();
@@ -14,6 +13,7 @@ app.engine(
     extname: ".hbs",
   })
 );
+
 app.set("view engine", ".hbs");
 
 //middleware
