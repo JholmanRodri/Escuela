@@ -8,7 +8,7 @@ Object.defineProperty(exports, "__esModule", {
 exports["default"] = void 0;
 require("core-js/modules/es.array.find.js");
 require("core-js/modules/es.object.to-string.js");
-var _regeneratorRuntime2 = _interopRequireDefault(require("C:/Users/jholm/OneDrive/Escritorio/trabajos/mongoMatu/node_modules/@babel/runtime/helpers/esm/regeneratorRuntime.js"));
+var _regeneratorRuntime2 = require("@babel/runtime/helpers/regeneratorRuntime");
 var _asyncToGenerator2 = _interopRequireDefault(require("C:/Users/jholm/OneDrive/Escritorio/trabajos/mongoMatu/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js"));
 var _express = require("express");
 var _alumnoController = require("../controllers/alumnoController");
